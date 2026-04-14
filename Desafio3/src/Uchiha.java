@@ -1,8 +1,13 @@
 
 public class Uchiha extends Ninja {
-
+ 
+    public Uchiha(String nome, String aldeia, int idade) {
+        super(nome, aldeia, idade);
+    }
+ 
     @Override
-    public void HabilidadeEspecial(){
-        System.out.println("Meu nome\n é " + nome + " e esse meu ataque espeical,ataque de fogo");
+    public void habilidadeEspecial() {
+        System.out.println(getNome() + " usa: Chidori");
     }
 }
+ 

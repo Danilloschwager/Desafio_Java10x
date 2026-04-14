@@ -1,15 +1,15 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
-    static void main(String[] args) {
-
-        Uzumaki Naruto = new Uzumaki();
-        Naruto.nome = "Naruto Uzumaki";
-        Naruto.HabilidadeEspecial();
-
-        Uchiha Sasuke = new Uchiha();
-        Sasuke.nome = "Sasuke Uchiha";
-        Sasuke.HabilidadeEspecial();
+    public static void main(String[] args) {
+ 
+        Ninja naruto = new Uzumaki("Naruto Uzumaki", "Konoha", 17);
+        naruto.apresentar();
+        naruto.habilidadeEspecial();
+ 
+        System.out.println();
+ 
+        Ninja sasuke = new Uchiha("Sasuke Uchiha", "Konoha", 17);
+        sasuke.apresentar();
+        sasuke.habilidadeEspecial();
     }
 }
-
+ 
